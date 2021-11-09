@@ -8,39 +8,39 @@
 
 ##### 1. What type of architecture does the HTTP request and response process occur in?
 
-*Answer...*
+*HTTP requests occur in the client/server based architecture.*
 
 ##### 2. What are the different parts of an HTTP request?
 
-*Answer...*
+*Request line, header, and body.*
 
 ##### 3. Which part of an HTTP request is optional?
 
-*Answer...*
+*The body is optional.*
 
 ##### 4. What are the three parts of an HTTP response?
 
-*Answer...*
+*Status line, header, and body.*
 
 ##### 5. Which number class of status codes represents errors?
 
-*Answer...*
+*The 4th class.*
 
 ##### 6. What are the two most common request methods that a security professional will encounter?
 
-*Answer...*
+*HEAD and POST.*
 
 ##### 7. Which type of HTTP request method is used for sending data?
 
-*Answer...*
+*POST*
 
 ##### 8. Which part of an HTTP request contains the data being sent to the server?
 
-*Answer...*
+*The request body is the part of an HTTP request that contains the data being sent to the server.*
 
 ##### 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
 
-*Answer...*
+*The User-Agent response header receives the web code to generate and style a web page.*
 
 ---
 

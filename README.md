@@ -8,39 +8,39 @@
 
 ##### 1. What type of architecture does the HTTP request and response process occur in?
 
-Answer...
+*Answer...*
 
 ##### 2. What are the different parts of an HTTP request?
 
-Answer...
+*Answer...*
 
 ##### 3. Which part of an HTTP request is optional?
 
-Answer...
+*Answer...*
 
 ##### 4. What are the three parts of an HTTP response?
 
-Answer...
+*Answer...*
 
 ##### 5. Which number class of status codes represents errors?
 
-Answer...
+*Answer...*
 
 ##### 6. What are the two most common request methods that a security professional will encounter?
 
-Answer...
+*Answer...*
 
 ##### 7. Which type of HTTP request method is used for sending data?
 
-Answer...
+*Answer...*
 
 ##### 8. Which part of an HTTP request contains the data being sent to the server?
 
-Answer...
+*Answer...*
 
 ##### 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
 
-Answer...
+*Answer...*
 
 ---
 
@@ -48,23 +48,23 @@ Answer...
 
 ##### 10. What are the advantages of using `curl` over the browser?
 
-Answer...
+*Answer...*
 
 ##### 11. Which `curl` option is used to change the request method?
 
-Answer...
+*Answer...*
 
 ##### 12. Which `curl` option is used to set request headers?
 
-Answer...
+*Answer...*
 
 ##### 13. Which `curl` option is used to view the response header?
 
-Answer...
+*Answer...*
 
 ##### 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
 
-Answer...
+*Answer...*
 
 ---
 
@@ -78,7 +78,7 @@ Content-type: text/html
 Set-Cookie: cart=Bob
 ```
 
-Answer...
+*Answer...*
 
 ##### 16. Which request header will continue the client's session?
 
@@ -88,7 +88,7 @@ Host: www.example.org
 Cookie: cart=Bob
 ```
 
-Answer...
+*Answer...*
 
 ### Example HTTP Requests and Responses
 
@@ -144,24 +144,24 @@ X-XSS-Protection: 1; mode=block
 
 ##### 21. What is the response status code?
 
-Answer...
+*Answer...*
 
 ##### 22. What web server is handling this HTTP response?
 
-Answer...
+*Answer...*
 
 ##### 23. Does this response have a user session associated to it?
 
-Answer...
+*Answer...*
 
 ##### 24. What kind of content is likely to be in the [page content] response body?
 
-Answer...
+*Answer...*
 
 ##### 25. If your class covered security headers, what security request headers have been included?
 
 
-Answer...
+*Answer...*
 
 ---
 
@@ -169,15 +169,15 @@ Answer...
 
 ##### 26. What are the individual components of microservices called?
 
-Answer...
+*Answer...*
 
 ##### 27. What is a service that writes to a database and communicates to other services?
 
-Answer...
+*Answer...*
 
 ##### 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
 
-Answer...
+*Answer...*
 
 ---
 
@@ -185,11 +185,11 @@ Answer...
 
 ##### 29. What tool can be used to deploy multiple containers at once?
 
-Answer...
+*Answer...*
 
 ##### 30. What kind of file format is required for us to deploy a container set?
 
-Answer...
+*Answer...*
 
 ---
 
@@ -197,14 +197,14 @@ Answer...
 
 ##### 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
-Answer...
+*Answer...*
 
 ##### 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
-Answer...
+*Answer...*
 
 ##### 33. Why would we never run `DELETE FROM <table-name>;` by itself?
 
-Answer...
+*Answer...*
 
 ### Bonus

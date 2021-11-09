@@ -109,19 +109,19 @@ username=Barbara&password=password
 
 ##### 17. What is the request method?
 
-<span> style="background-color: #FFFF00">Answer...</span>
+*Answer...*
 
 ##### 18. Which header expresses the client's preference for an encrypted response?
 
-Answer...
+*Answer...*
 
 ##### 19. Does the request have a user session associated with it?
 
-Answer...
+*Answer...*
 
 ##### 20. What kind of data is being sent from this request body?
 
-Answer...
+*Answer...*
 
 ##### HTTP Response
 

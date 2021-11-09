@@ -72,17 +72,21 @@ Answer...
 
 ##### 15. Which response header sends a cookie to the client?
 
-> `HTTP/1.1 200 OK`
-> `Content-type: text/html`
-> `Set-Cookie: cart=Bob`
+```
+HTTP/1.1 200 OK
+Content-type: text/html
+Set-Cookie: cart=Bob
+```
 
 Answer...
 
 ##### 16. Which request header will continue the client's session?
 
-> `GET /cart HTTP/1.1`
-> `Host: www.example.org`
-> `Cookie: cart=Bob`
+```
+GET /cart HTTP/1.1
+Host: www.example.org
+Cookie: cart=Bob
+```
 
 Answer...
 

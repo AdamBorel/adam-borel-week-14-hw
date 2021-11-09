@@ -48,7 +48,7 @@
 
 ##### 10. What are the advantages of using `curl` over the browser?
 
-*Answer...*
+*The advantages of using curl over the browser are that curl is simple and flexible, but still able to complete complex tasks that the browser may not support.*
 
 ##### 11. Which `curl` option is used to change the request method?
 

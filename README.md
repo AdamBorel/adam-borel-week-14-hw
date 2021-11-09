@@ -1,8 +1,10 @@
 <html>
 
   <body>
-      <h1>Week 14 Homework Submission</h1>
-      <h4>Created by: Adam Borel</h4>
+      <h3>Week 14 Homework Submission</h3>
+      <i>Created by: Adam Borel</i>
+<hr/>
+         
   </body>
 
 </html>

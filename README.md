@@ -109,7 +109,7 @@ username=Barbara&password=password
 
 ##### 17. What is the request method?
 
-<mark>Answer...</mark>
+<span> style="background-color: #FFFF00">Answer...</span>
 
 ##### 18. Which header expresses the client's preference for an encrypted response?
 

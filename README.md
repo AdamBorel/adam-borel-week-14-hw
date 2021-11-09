@@ -52,19 +52,19 @@
 
 ##### 11. Which `curl` option is used to change the request method?
 
-*Answer...*
+*`-X` or `--request`*
 
 ##### 12. Which `curl` option is used to set request headers?
 
-*Answer...*
+*?????*
 
 ##### 13. Which `curl` option is used to view the response header?
 
-*Answer...*
+*`-i`*
 
 ##### 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
 
-*Answer...*
+*?????*
 
 ---
 
@@ -72,23 +72,19 @@
 
 ##### 15. Which response header sends a cookie to the client?
 
-```
-HTTP/1.1 200 OK
-Content-type: text/html
+~~HTTP/1.1 200 OK~~
+~~Content-type: text/html~~
 Set-Cookie: cart=Bob
-```
 
-*Answer...*
+*`Set-Cookie: cart=Bob`*
 
 ##### 16. Which request header will continue the client's session?
 
-```
-GET /cart HTTP/1.1
-Host: www.example.org
-Cookie: cart=Bob
-```
+~~GET /cart HTTP/1.1~~
+~~Host: www.example.org~~
+~~Cookie: cart=Bob~~
 
-*Answer...*
+*The HTTP keep-alive header.*
 
 ### Example HTTP Requests and Responses
 
@@ -113,15 +109,15 @@ username=Barbara&password=password
 
 ##### 18. Which header expresses the client's preference for an encrypted response?
 
-*Answer...*
+`Accept-Encoding: gzip, deflate, br`
 
 ##### 19. Does the request have a user session associated with it?
 
-*Answer...*
+*Yes*, `username=Barbara&password=password`
 
 ##### 20. What kind of data is being sent from this request body?
 
-*Answer...*
+*The user is filling out some sort of form?*
 
 ##### HTTP Response
 

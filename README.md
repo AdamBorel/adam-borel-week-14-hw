@@ -90,16 +90,18 @@ Answer...
 
 ##### HTTP Request
 
-> `POST /login.php HTTP/1.1`
-> `Host: example.com`
-> `Accept-Encoding: gzip, deflate, br`
-> `Connection: keep-alive`
-> `Content-Type: application/x-www-form-urlencoded`
-> `Content-Length: 34`
-> `Upgrade-Insecure-Requests: 1`
-> `User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36`
+```
+POST /login.php HTTP/1.1
+Host: example.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 34
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
 
-> `username=Barbara&password=password`
+username=Barbara&password=password
+```
 
 ##### 17. What is the request method?
 
@@ -119,20 +121,22 @@ Answer...
 
 ##### HTTP Response
 
-> `HTTP/1.1 200 OK`
-  `Date: Mon, 16 Mar 2020 17:05:43 GMT`
-  `Last-Modified: Sat, 01 Feb 2020 00:00:00 GMT`
-  `Content-Encoding: gzip`
-  `Expires: Fri, 01 May 2020 00:00:00 GMT`
-  `Server: Apache`
-  `Set-Cookie: SessionID=5`
-  `Content-Type: text/html; charset=UTF-8`
-  `Strict-Transport-Security: max-age=31536000; includeSubDomains`
-  `X-Content-Type: NoSniff`
-  `X-Frame-Options: DENY`
-  `X-XSS-Protection: 1; mode=block`
->
->  `[page content]`
+```
+HTTP/1.1 200 OK
+Date: Mon, 16 Mar 2020 17:05:43 GMT
+Last-Modified: Sat, 01 Feb 2020 00:00:00 GMT
+Content-Encoding: gzip
+Expires: Fri, 01 May 2020 00:00:00 GMT
+Server: Apache
+Set-Cookie: SessionID=5
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type: NoSniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+
+[page content]
+```
 
 ##### 21. What is the response status code?
 

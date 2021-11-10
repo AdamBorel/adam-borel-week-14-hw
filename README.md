@@ -12,7 +12,7 @@
 
 ##### 2. What are the different parts of an HTTP request?
 
-<!-- *Request line, header, and body.* ASK ANDREA ABOUT THIS -->
+*Request line, header, and body.*
 
 ##### 3. Which part of an HTTP request is optional?
 

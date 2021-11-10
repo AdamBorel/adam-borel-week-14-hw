@@ -115,11 +115,12 @@ username=Barbara&password=password
 
 *Yes*, `username=Barbara&password=password`
 
-##### 20. What kind of data is being sent from this request body?
+#### 20. What kind of data is being sent from this request body?
 
-*The user is filling out some sort of form?*
 
-##### HTTP Response
+###### *The user is filling out a form for `username` and `password`*
+
+#### HTTP Response
 
 ```
 HTTP/1.1 200 OK
@@ -138,9 +139,9 @@ X-XSS-Protection: 1; mode=block
 [page content]
 ```
 
-##### 21. What is the response status code?
+#### 21. What is the response status code?
 
-*Answer...*
+###### *Answer...*
 
 ##### 22. What web server is handling this HTTP response?
 
@@ -156,8 +157,7 @@ X-XSS-Protection: 1; mode=block
 
 ##### 25. If your class covered security headers, what security request headers have been included?
 
-
-*Strict-Trasnport-Security*
+*`Strict-Trasnport-Security`*
 
 ---
 

@@ -28,7 +28,7 @@
 
 ##### 6. What are the two most common request methods that a security professional will encounter?
 
-*HEAD and POST.*
+*GET and POST.*
 
 ##### 7. Which type of HTTP request method is used for sending data?
 
@@ -56,15 +56,15 @@
 
 ##### 12. Which `curl` option is used to set request headers?
 
-*?????*
+*-H*
 
 ##### 13. Which `curl` option is used to view the response header?
 
-*`-i`*
+*`-I`*
 
 ##### 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
 
-*?????*
+*OPTIONS request*
 
 ---
 
@@ -82,9 +82,9 @@ Set-Cookie: cart=Bob
 
 ~~GET /cart HTTP/1.1~~
 ~~Host: www.example.org~~
-~~Cookie: cart=Bob~~
+Cookie: cart=Bob
 
-*The HTTP keep-alive header.*
+*`cookie: cart=Bob`*
 
 ### Example HTTP Requests and Responses
 
@@ -157,7 +157,7 @@ X-XSS-Protection: 1; mode=block
 ##### 25. If your class covered security headers, what security request headers have been included?
 
 
-*Answer...*
+*Strict-Trasnport-Security*
 
 ---
 

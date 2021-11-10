@@ -12,7 +12,7 @@
 
 ##### 2. What are the different parts of an HTTP request?
 
-*Request line, header, and body.*
+<!-- *Request line, header, and body.* ASK ANDREA ABOUT THIS -->
 
 ##### 3. Which part of an HTTP request is optional?
 
@@ -48,7 +48,7 @@
 
 ##### 10. What are the advantages of using `curl` over the browser?
 
-*The advantages of using curl over the browser are that curl is simple and flexible, but still able to complete complex tasks that the browser may not support.*
+*The advantages of using curl over the browser is that curl is simple and flexible, but still able to complete complex tasks that the browser may not support.*
 
 ##### 11. Which `curl` option is used to change the request method?
 
@@ -84,7 +84,7 @@ Set-Cookie: cart=Bob
 ~~Host: www.example.org~~
 Cookie: cart=Bob
 
-*`cookie: cart=Bob`*
+*`Cookie: cart=Bob`*
 
 ### Example HTTP Requests and Responses
 
@@ -105,15 +105,15 @@ username=Barbara&password=password
 
 ##### 17. What is the request method?
 
-*Answer...*
+*`POST`*
 
 ##### 18. Which header expresses the client's preference for an encrypted response?
 
-`Accept-Encoding: gzip, deflate, br`
+`Upgrade-Insecure-Requests: 1`
 
 ##### 19. Does the request have a user session associated with it?
 
-*Yes*, `username=Barbara&password=password`
+>*Yes*, `User-Agent: Mozilla/5.0 >?(Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36`
 
 #### 20. What kind of data is being sent from this request body?
 
@@ -141,19 +141,19 @@ X-XSS-Protection: 1; mode=block
 
 #### 21. What is the response status code?
 
-###### *Answer...*
+###### *`200`*
 
 ##### 22. What web server is handling this HTTP response?
 
-*Answer...*
+*`Apache`*
 
 ##### 23. Does this response have a user session associated to it?
 
-*Answer...*
+*Yes `Set-Cookie: SessionID=5`*
 
 ##### 24. What kind of content is likely to be in the [page content] response body?
 
-*Answer...*
+*Some sort of Bank account?*
 
 ##### 25. If your class covered security headers, what security request headers have been included?
 
@@ -165,15 +165,15 @@ X-XSS-Protection: 1; mode=block
 
 ##### 26. What are the individual components of microservices called?
 
-*Answer...*
+*Front End Servers, Back End Severs, and Databases?*
 
 ##### 27. What is a service that writes to a database and communicates to other services?
 
-*Answer...*
+*The Back-end Server?*
 
 ##### 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
 
-*Answer...*
+*Containers?*
 
 ---
 
@@ -181,11 +181,11 @@ X-XSS-Protection: 1; mode=block
 
 ##### 29. What tool can be used to deploy multiple containers at once?
 
-*Answer...*
+*Docker?*
 
 ##### 30. What kind of file format is required for us to deploy a container set?
 
-*Answer...*
+*An Ansible Playbook?*
 
 ---
 
@@ -193,14 +193,14 @@ X-XSS-Protection: 1; mode=block
 
 ##### 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
-*Answer...*
+*Read?*
 
 ##### 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
-*Answer...*
+*Create?*
 
 ##### 33. Why would we never run `DELETE FROM <table-name>;` by itself?
 
-*Answer...*
+*Because we will delete the entire database vs deleting an individual piece of data within the table?*
 
 ### Bonus

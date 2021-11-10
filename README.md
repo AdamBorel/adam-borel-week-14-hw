@@ -56,7 +56,7 @@
 
 ##### 12. Which `curl` option is used to set request headers?
 
-*-H*
+*`-H`*
 
 ##### 13. Which `curl` option is used to view the response header?
 

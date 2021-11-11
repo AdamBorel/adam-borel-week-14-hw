@@ -6,6 +6,8 @@
 
 ### HTTP Requests and Responses
 
+---
+
 ##### 1. What type of architecture does the HTTP request and response process occur in?
 
 ###### *HTTP requests occur in the client/server based architecture.*
@@ -46,6 +48,7 @@
 
 ### Using Curl
 
+---
 ##### 10. What are the advantages of using `curl` over the browser?
 
 ###### *The advantages of using curl over the browser is that curl is simple and flexible, but still able to complete complex tasks that the browser may not support.*
@@ -70,12 +73,14 @@
 
 ### Sessions and Cookies
 
+---
+
 ##### 15. Which response header sends a cookie to the client?
 
 ```
-----HTTP/1.1 200 OK----
-----Content-type: text/html----
->Set-Cookie: cart=Bob<
+XXXXXXXXXX HTTP/1.1 200 OK XXXXXXXXXX
+XXXXXXXXXX Content-type: text/html---- XXXXXXXXXX
+>>>>>>>>>>Set-Cookie: cart=Bob<<<<<<<<<<
 ```
 
 ###### *`Set-Cookie: cart=Bob`*
@@ -90,12 +95,15 @@
 
 ###### *`Cookie: cart=Bob`*
 
-### Example HTTP Requests and Responses
+---
 
-##### HTTP Request
+#### Example HTTP Requests and Responses
 
-```
-POST /login.php HTTP/1.1
+---
+
+#### HTTP Request
+
+```POST /login.php HTTP/1.1
 Host: example.com
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
@@ -165,6 +173,8 @@ X-XSS-Protection: 1; mode=block
 
 #### Monoliths and Microservices
 
+---
+
 ##### 26. What are the individual components of microservices called?
 
 ###### *Services*
@@ -181,6 +191,8 @@ X-XSS-Protection: 1; mode=block
 
 #### Deploying and Testing a Container Set
 
+---
+
 ##### 29. What tool can be used to deploy multiple containers at once?
 
 ###### *Docker*
@@ -192,6 +204,8 @@ X-XSS-Protection: 1; mode=block
 ---
 
 #### Databases
+
+---
 
 ##### 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
@@ -205,7 +219,11 @@ X-XSS-Protection: 1; mode=block
 
 ###### *Because it will delete the whole table unless we use a `WHERE` clause!*
 
+---
+
 #### Bonus
+
+---
 
 ##### 1. Did you see any obvious confirmation of a login?
 

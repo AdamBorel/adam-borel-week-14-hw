@@ -12,27 +12,27 @@
 
 ##### 2. What are the different parts of an HTTP request?
 
-*Request line, header, and body.*
+*Request line, header, and white space.*
 
 ##### 3. Which part of an HTTP request is optional?
 
-*The body is optional.*
+*The request body is optional.*
 
 ##### 4. What are the three parts of an HTTP response?
 
-*Status line, header, and body.*
+*Status line, header, and response body.*
 
 ##### 5. Which number class of status codes represents errors?
 
-*The 4th class.*
+*Class 4 for client and 5 for server errors.*
 
 ##### 6. What are the two most common request methods that a security professional will encounter?
 
-*GET and POST.*
+*GET and POST requests.*
 
 ##### 7. Which type of HTTP request method is used for sending data?
 
-*POST*
+*POST requests*
 
 ##### 8. Which part of an HTTP request contains the data being sent to the server?
 
@@ -40,7 +40,7 @@
 
 ##### 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
 
-*The User-Agent response header receives the web code to generate and style a web page.*
+*The User-Agent response body receives the web code to generate and style a web page.*
 
 ---
 
@@ -117,12 +117,11 @@ username=Barbara&password=password
 
 ##### 19. Does the request have a user session associated with it?
 
->*Yes*, `User-Agent: Mozilla/5.0 >?(Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36`
+*NO*
 
 #### 20. What kind of data is being sent from this request body?
 
-
-###### *The user is filling out a form for `username` and `password`*
+*The user is filling out a form for `username` and `password`*
 
 #### HTTP Response
 
@@ -157,7 +156,7 @@ X-XSS-Protection: 1; mode=block
 
 ##### 24. What kind of content is likely to be in the [page content] response body?
 
-*Some sort of Bank account?*
+*Code of the website itself.*
 
 ##### 25. If your class covered security headers, what security request headers have been included?
 
@@ -169,15 +168,15 @@ X-XSS-Protection: 1; mode=block
 
 ##### 26. What are the individual components of microservices called?
 
-*Front End Servers, Back End Severs, and Databases?*
+*Services*
 
 ##### 27. What is a service that writes to a database and communicates to other services?
 
-*The Back-end Server?*
+*API*
 
 ##### 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
 
-*Containers?*
+*Containers*
 
 ---
 
@@ -185,11 +184,11 @@ X-XSS-Protection: 1; mode=block
 
 ##### 29. What tool can be used to deploy multiple containers at once?
 
-*Docker?*
+*Docker*
 
 ##### 30. What kind of file format is required for us to deploy a container set?
 
-*An Ansible Playbook?*
+*Docker YAML File*
 
 ---
 
@@ -197,14 +196,35 @@ X-XSS-Protection: 1; mode=block
 
 ##### 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
-*Read?*
+*`SELECT*FROM customers;`*
 
 ##### 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
-*Create?*
+*`INSERT INTO`*
 
 ##### 33. Why would we never run `DELETE FROM <table-name>;` by itself?
 
-*Because we will delete the entire database vs deleting an individual piece of data within the table?*
+*Because it will delete the whole table unless we use a `WHERE` clause!*
 
 ### Bonus
+
+##### 1. Did you see any obvious confirmation of a login?
+
+*NO*
+
+##### 2. How many items exist in this file?
+
+*4*
+
+##### 3. Is it obvious that we can access the Dashboard? (Y/N)
+
+*No it isn't obvious.*
+
+##### 4. Look through the output where Dashboard is highlighted. Does any of the wording on this page seem familiar? (Y/N) If so, you should be successfully logged in to your Editor's dashboard.
+
+*Yes, it looks like the dashboard to me!*
+
+##### 5. Finally, write a `curl` command using the same `--cookie ryancookies.txt` option, but attempt to access `http://localhost:8080/wp-admin/users.php.`. What happens this time?
+
+*`<div class="wp-die-message"><h1>You need a higher level of permission.<h/1><p>Sorry, you are not allowed to list users.</p></div></body>`*
+*Still unable to view the `userlist` because of permission issues.*

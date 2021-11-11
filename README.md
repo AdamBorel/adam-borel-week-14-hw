@@ -88,9 +88,9 @@ XXXXXXXXXX Content-type: text/html---- XXXXXXXXXX
 ##### 16. Which request header will continue the client's session?
 
 ```
-----GET /cart HTTP/1.1----
-----Host: www.example.org----
->Cookie: cart=Bob<
+XXXXXXXXXX GET /cart HTTP/1.1 XXXXXXXXXX
+XXXXXXXXXX Host: www.example.org XXXXXXXXXX
+>>>>>>>>>> Cookie: cart=Bob <<<<<<<<<<
 ```
 
 ###### *`Cookie: cart=Bob`*
